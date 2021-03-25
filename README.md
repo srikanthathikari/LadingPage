@@ -6,8 +6,8 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The project shows documentation with Lorem epsum with multiple sections. The navigation bar is constructed from the values based on the section tag values. Also, The section that is displayed and is in view will be active and highlighted in the nav bar with black color 
+back ground. The blog works across all break points.
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+This project is useful to show how javascript can be useful to make a website full functional with very few clicks on the page.
+There are add and remove Event Listners to identify the focus and remove class that are not active. 
