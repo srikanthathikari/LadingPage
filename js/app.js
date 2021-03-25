@@ -28,7 +28,7 @@ for (let i = 0; i < landingContainer.length; i++) {
     newElementsArray.forEach(function(sec,index){
         
         sec.addEventListener("click", function(){
-            landingContainer[index].scrollIntoView();
+            landingContainer[index].scrollIntoView({behavior: "smooth"});
         })
         sec.addEventListener("mouseover", function(){
             sec.classList.add('hover')
